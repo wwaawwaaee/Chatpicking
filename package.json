@@ -1,0 +1,13 @@
+{
+  "name": "chatpicking",
+  "version": "1.0.0",
+  "description": "OpenClaw Skill - QQ群聊消息扫描与总结",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs",
+    "collect": "node scripts/collect.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
